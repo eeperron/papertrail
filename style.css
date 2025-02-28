@@ -115,6 +115,7 @@ nav{
   padding:15px;
   top:0;
   left:0;
+  z-index: 10000; /* High value to ensure it stays above the panning section */
 
 
 }
