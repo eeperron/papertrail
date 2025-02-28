@@ -103,11 +103,19 @@ body.hovered a.hovered img {
   transform: scale(1.1);
   box-shadow: 0 0 16px #ffffff33;
 }
+
+nav a {
+  text-decoration: none; /* Removes the default underline */
+  position: relative; /* Required for z-index to work */
+  z-index: 10; /* Makes sure it's in front of other elements */
+}
+
 nav{
   position: fixed; 
   padding:15px;
   top:0;
   left:0;
+
 
 }
 h2{
@@ -115,5 +123,6 @@ h2{
   font-size: 16px;
   line-height: 1.05;
   font-weight: 150;
-  color:#3f424a68;
+  color:#52545c68;
+  text-decoration: none;
 }
